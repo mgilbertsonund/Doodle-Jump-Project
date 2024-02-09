@@ -1,0 +1,22 @@
+.grid {
+    width: 400px;
+    height: 600px;
+    background-color: yellow;
+    position: relative;
+    /* relative means relative to browser */
+}
+
+.doodler {
+    width: 60px;
+    height: 85px;
+    background-color: red;
+    position: absolute;
+    /* absolute means it will stay inside of grid */
+}
+
+.platform {
+    width: 85px;
+    height: 15px;
+    background-color: green;
+    position: absolute;
+}
